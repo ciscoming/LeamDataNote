@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 04 Apr 2023 12:40:40 GMT</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 12:40:40 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Apr 2023 12:40:58 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2023 12:40:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by 清顺</copyright>
@@ -16,12 +16,44 @@
       <url>https://newzone.top/logo.svg</url>
       <link>https://newzone.top/</link>
     </image>
+    <category>系统</category>
     <category>网络</category>
     <category>服务器</category>
     <category>自动化</category>
     <category>健康</category>
     <category>博客</category>
-    <category>工具</category>
+    <item>
+      <title>加速 SMB 协议，让 PC 变身小型 NAS</title>
+      <link>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</link>
+      <guid>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</guid>
+      <source url="https://newzone.top/rss.xml">加速 SMB 协议，让 PC 变身小型 NAS</source>
+      <description>Windows 系统开启 SMB 协议： 打开「控制面板」窗口，在「类别」查看方式下单击「程序」。 打开「程序」窗口，单击「启用或关闭 windows 功能」。 打开「windows 功能」窗口，勾选 SMB 直通。 勾选「远程差分压缩 API 支持」。</description>
+      <category>系统</category>
+      <pubDate>Sun, 03 Sep 2017 20:57:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Windows 系统开启 SMB 协议：</p>
+<ol>
+<li>
+<p>打开「控制面板」窗口，在「类别」查看方式下单击「程序」。</p>
+<figure><img src="https://pic1.zhimg.com/v2-af3e5c2a16a1f245ac6584097c53be60_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>打开「程序」窗口，单击「启用或关闭 windows 功能」。</p>
+<figure><img src="https://pic1.zhimg.com/v2-36207f67a5eb3aeb8ee7c1ae855b13dc_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>打开「windows 功能」窗口，勾选 SMB 直通。</p>
+<figure><img src="https://pic3.zhimg.com/v2-b1feb5554e6f1da003266be9cb470dfe_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>勾选「远程差分压缩 API 支持」。</p>
+<figure><img src="https://pic4.zhimg.com/v2-c5fc3e3d771b6e4bd2516372c69b340b_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+</ol>
+<p>网上很多教程都要求关闭“远程差分压缩”复选框，这是对“远程差分压缩”的误解。</p>
+<p>官方解释：远程差分压缩 (RDC) 功能是一组应用程序编程接口 (API)，这些应用程序可用于确定某个文件集是否发生了变化，如果是，就检测哪部分文件进行了更改。RDC 检测文件中数据的插入、删除和重新排列，使应用程序能够仅复制文件的已更改部分。这对于在有限带宽网络（如广域网 (WAN) 连接）上复制文件非常有用。</p>
+]]></content:encoded>
+      <enclosure url="https://pic1.zhimg.com/v2-af3e5c2a16a1f245ac6584097c53be60_r.jpg" type="image/jpeg"/>
+    </item>
     <item>
       <title>光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</title>
       <link>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</link>
@@ -437,41 +469,6 @@ AI 会取代你的工作！</p>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://tc.seoipo.com/20180504135244.png?imageMogr2/format/webp" type="image/"/>
-    </item>
-    <item>
-      <title>怎么用 Adobe Audition 快速剪切音频？</title>
-      <link>https://newzone.top/posts/2018-05-04-audition_cut_mp3.html</link>
-      <guid>https://newzone.top/posts/2018-05-04-audition_cut_mp3.html</guid>
-      <source url="https://newzone.top/rss.xml">怎么用 Adobe Audition 快速剪切音频？</source>
-      <description>很久没剪音频了，突然被朋友拜托，才发现 Audition 剪切音频有多非人性，操作跟 10 年前的软件相比，没任何进步。 简易剪切流程 在 Audition 中打开音频文件。 选定要删除的音频部分：左键按住在删除音频起点，然后拉动到删除音频重点，放开左键。 点击右键，选择删除。刚才选择的音频就被删除了。 在混音器中点击，用鼠标滚轮放大音频的可选间距，重复上面 3 步，继续剪切音频。 精修完后，点击「文件」&amp;gt;「另存为」，就可以保存我们的音频文件了。</description>
-      <category>工具</category>
-      <pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>很久没剪音频了，突然被朋友拜托，才发现 Audition 剪切音频有多非人性，操作跟 10 年前的软件相比，没任何进步。</p>
-<h2> 简易剪切流程</h2>
-<ol>
-<li>
-<p>在 Audition 中打开音频文件。</p>
-<figure><img src="https://tc.seoipo.com/20180504152233.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>选定要删除的音频部分：左键按住在<strong>删除音频起点</strong>，然后拉动到<strong>删除音频重点</strong>，放开左键。</p>
-<figure><img src="https://tc.seoipo.com/20180504151226.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>点击右键，选择<strong>删除</strong>。刚才选择的音频就被删除了。</p>
-<figure><img src="https://tc.seoipo.com/20180504151306.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>在混音器中点击，用<strong>鼠标滚轮</strong>放大音频的可选间距，重复上面 3 步，继续剪切音频。</p>
-<figure><img src="https://tc.seoipo.com/20180504151816.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>精修完后，点击「文件」&gt;「另存为」，就可以保存我们的音频文件了。</p>
-</li>
-</ol>
-<p>PS：原本是想用时间来截取音频，但找遍 Audition 菜单，也没发现能按时间来剪切的选项。最后还是靠鼠标完成的。。</p>
-]]></content:encoded>
-      <enclosure url="https://tc.seoipo.com/20180504152233.png?imageMogr2/format/webp" type="image/"/>
     </item>
   </channel>
 </rss>
