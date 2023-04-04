@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 04 Apr 2023 12:39:25 GMT</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 12:39:25 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Apr 2023 12:40:13 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2023 12:40:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by 清顺</copyright>
@@ -21,49 +21,7 @@
     <category>服务器</category>
     <category>自动化</category>
     <category>健康</category>
-    <item>
-      <title>office 2016 安装程序报错解决办法</title>
-      <link>https://newzone.top/posts/2017-07-28-office_2016_installer_error.html</link>
-      <guid>https://newzone.top/posts/2017-07-28-office_2016_installer_error.html</guid>
-      <source url="https://newzone.top/rss.xml">office 2016 安装程序报错解决办法</source>
-      <description>重新安装 Office 系统或更改安装组件时，经常提示：「找不到有效的安装源」，但实际这些文件都能在安装包内找到。这是由于注册表和组件而导致的报错，「找不到有效的安装源」并不是真实原因，解决方法查看下方。 解决方法 打开 regedit.exe，在注册表中找到路径 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Delivery\SourceEngine\Downloads\{90160000-00BA-0804-1000-0000000FF1CE}-C\Sources\PROPLUS16(RG)-6186D162。 修改 Path 数据，改为安装包位置，比如 F:\5.软件资源\系统重装\SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426\groove.zh-cn。 在 C 盘建立安装组件： 把安装包路径 \groove.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-00BA-0804-1000-0000000FF1CE}-C 目录下 (如果没有这个目录就自己建立)。 把安装包路径 \proplus.ww\ 下的文件复制到 C:\MSOCache\All Users\{90160000-0011-0000-1000-0000000FF1CE}-C。 将需要的程序文件放入 MSOCache 路径 MSOCache 其它的目录下内容同样根据注册表的内容把它指示的光盘中的安装文件复制到相应的目录下。如果没有那个目录就要自己建立，类似的目录一共有 12 个。 如果不想全装可以只选择需要的软件，下面以 Onenote 和 Access 为例。 Onenote 把安装包路径 \onenote.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-00A1-0804-1000-0000000FF1CE}-CC。 Access 把安装包路径 \access.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-0015-0804-1000-0000000FF1CE}-C。 最后进入安装包运行 setup.exe 安装正常。</description>
-      <category>系统</category>
-      <pubDate>Fri, 28 Jul 2017 11:02:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>重新安装 Office 系统或更改安装组件时，经常提示：「找不到有效的安装源」，但实际这些文件都能在安装包内找到。这是由于注册表和组件而导致的报错，<strong>「找不到有效的安装源」并不是真实原因</strong>，解决方法查看下方。</p>
-<figure><img src="https://pic3.zhimg.com/v2-85bd2a49a47ee6d0c8eade7b3c249516_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 解决方法</h2>
-<ol>
-<li>
-<p>打开 regedit.exe，在注册表中找到路径 <code>计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Delivery\SourceEngine\Downloads\{90160000-00BA-0804-1000-0000000FF1CE}-C\Sources\PROPLUS16(RG)-6186D162</code>。</p>
-</li>
-<li>
-<p>修改 Path 数据，改为安装包位置，比如 <code>F:\5.软件资源\系统重装\SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426\groove.zh-cn</code>。</p>
-<figure><img src="https://pic3.zhimg.com/v2-650ede86dd191a8f0a1cd6e9b815377a_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>在 C 盘建立安装组件：</p>
-<ul>
-<li>把安装包路径 <code>\groove.zh-cn\</code> 下的文件复制到 <code>C:\MSOCache\All Users\{90160000-00BA-0804-1000-0000000FF1CE}-C</code> 目录下 (如果没有这个目录就自己建立)。</li>
-<li>把安装包路径 <code>\proplus.ww\</code> 下的文件复制到 <code>C:\MSOCache\All Users\{90160000-0011-0000-1000-0000000FF1CE}-C</code>。</li>
-</ul>
-</li>
-<li>
-<p>将需要的程序文件放入 MSOCache 路径
-MSOCache 其它的目录下内容同样根据注册表的内容把它指示的光盘中的安装文件复制到相应的目录下。如果没有那个目录就要自己建立，类似的目录一共有 12 个。
-如果不想全装可以只选择需要的软件，下面以 Onenote 和 Access 为例。</p>
-<ul>
-<li><strong>Onenote</strong> 把安装包路径 <code>\onenote.zh-cn\</code> 下的文件复制到 <code>C:\MSOCache\All Users\{90160000-00A1-0804-1000-0000000FF1CE}-CC</code>。</li>
-<li><strong>Access</strong> 把安装包路径 <code>\access.zh-cn\</code> 下的文件复制到 <code>C:\MSOCache\All Users\{90160000-0015-0804-1000-0000000FF1CE}-C</code>。</li>
-</ul>
-</li>
-<li>
-<p>最后进入安装包运行 setup.exe 安装正常。</p>
-</li>
-</ol>
-<p>Office 组件报错大都是由于 MSOCache 目录被删，建议安装 Office 后不要删除该目录。使用优化工具时，要注意保留 MSOCache 目录及其下的文件。</p>
-]]></content:encoded>
-      <enclosure url="https://pic3.zhimg.com/v2-85bd2a49a47ee6d0c8eade7b3c249516_r.jpg" type="image/jpeg"/>
-    </item>
+    <category>博客</category>
     <item>
       <title>OneNote 2016 无法登陆问题解决</title>
       <link>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</link>
@@ -398,6 +356,44 @@ AI 会取代你的工作！</p>
 <img src="https://tc.seoipo.com/18-4-30/21951434.jpg" alt="软件安装界面" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://tc.seoipo.com/18-4-30/97791164.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Jekyll 篇一：3 分钟搭建 Github Pages 博客</title>
+      <link>https://newzone.top/posts/2018-05-01-jekyll_blog_on_github_pages.html</link>
+      <guid>https://newzone.top/posts/2018-05-01-jekyll_blog_on_github_pages.html</guid>
+      <source url="https://newzone.top/rss.xml">Jekyll 篇一：3 分钟搭建 Github Pages 博客</source>
+      <description>一直都想建立自己的个人博客，重装过 N 次 WordPress，又因为种种原因而放弃。 偶然看到了 Hux 的 Jekyll 模板，被漂亮的设计给迷住了。Github Pages 默认支持 Jekyll 环境，并提供了免费空间和流量，因此开始了 Github Pages + Jekyll 之路。 搭建流程 注册并登录 Github。 选择一个喜欢的 Jekyll 模板, 进入对应的 Github 主页。我选了黄玄的 Hux Blog。 点击 Fork, 将喜欢的模板复制到自己的 Github 仓库中。 点击 Setting, 修改 Repository name 为 xxx.github.io, xxx 是你的 Github 用户名。 同一页面选择「Code and automation」&amp;gt;「Pages」&amp;gt;「Build and deployment」&amp;gt;「Branch」, 将 master branch 设为 Github Pages 来源，网站运行目录默认为 /(root)。设置好后，点击「Save」。 最后，按页面提示访问链接 https://xxx.github.io/，新博客搭建完毕。</description>
+      <category>博客</category>
+      <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>一直都想建立自己的个人博客，重装过 N 次 WordPress，又因为种种原因而放弃。</p>
+<p>偶然看到了 Hux 的 Jekyll 模板，被漂亮的设计给迷住了。Github Pages 默认支持 Jekyll 环境，并提供了免费空间和流量，因此开始了 Github Pages + Jekyll 之路。</p>
+<h3> 搭建流程</h3>
+<ol>
+<li>
+<p>注册并登录 <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a>。</p>
+</li>
+<li>
+<p>选择一个喜欢的 <a href="http://jekyllthemes.org/" target="_blank" rel="noopener noreferrer">Jekyll 模板</a>, 进入对应的 Github 主页。我选了黄玄的 <a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="noopener noreferrer">Hux Blog</a>。</p>
+</li>
+<li>
+<p>点击 <code>Fork</code>, 将喜欢的模板复制到自己的 Github 仓库中。</p>
+<figure><img src="https://tc.seoipo.com/20180505201522.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>点击 <code>Setting</code>, 修改 <code>Repository name</code> 为 <code>xxx.github.io</code>, <code>xxx</code> 是你的 Github 用户名。</p>
+<figure><img src="https://tc.seoipo.com/20180505202201.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>同一页面选择「Code and automation」&gt;「Pages」&gt;「Build and deployment」&gt;「Branch」, 将 master branch 设为 Github Pages 来源，网站运行目录默认为 <code>/(root)</code>。设置好后，点击「Save」。</p>
+<figure><img src="https://tc.seoipo.com/2022-08-08-11-42-16.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>最后，按页面提示访问链接 <code>https://xxx.github.io/</code>，新博客搭建完毕。</p>
+<figure><img src="https://tc.seoipo.com/20180505202859.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://tc.seoipo.com/20180505201522.png?imageMogr2/format/webp" type="image/"/>
     </item>
   </channel>
 </rss>
