@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 04 Apr 2023 12:40:58 GMT</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 12:40:58 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Apr 2023 12:41:12 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2023 12:41:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by 清顺</copyright>
@@ -16,109 +16,11 @@
       <url>https://newzone.top/logo.svg</url>
       <link>https://newzone.top/</link>
     </image>
-    <category>系统</category>
-    <category>网络</category>
     <category>服务器</category>
     <category>自动化</category>
     <category>健康</category>
     <category>博客</category>
-    <item>
-      <title>加速 SMB 协议，让 PC 变身小型 NAS</title>
-      <link>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</link>
-      <guid>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</guid>
-      <source url="https://newzone.top/rss.xml">加速 SMB 协议，让 PC 变身小型 NAS</source>
-      <description>Windows 系统开启 SMB 协议： 打开「控制面板」窗口，在「类别」查看方式下单击「程序」。 打开「程序」窗口，单击「启用或关闭 windows 功能」。 打开「windows 功能」窗口，勾选 SMB 直通。 勾选「远程差分压缩 API 支持」。</description>
-      <category>系统</category>
-      <pubDate>Sun, 03 Sep 2017 20:57:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Windows 系统开启 SMB 协议：</p>
-<ol>
-<li>
-<p>打开「控制面板」窗口，在「类别」查看方式下单击「程序」。</p>
-<figure><img src="https://pic1.zhimg.com/v2-af3e5c2a16a1f245ac6584097c53be60_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>打开「程序」窗口，单击「启用或关闭 windows 功能」。</p>
-<figure><img src="https://pic1.zhimg.com/v2-36207f67a5eb3aeb8ee7c1ae855b13dc_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>打开「windows 功能」窗口，勾选 SMB 直通。</p>
-<figure><img src="https://pic3.zhimg.com/v2-b1feb5554e6f1da003266be9cb470dfe_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>勾选「远程差分压缩 API 支持」。</p>
-<figure><img src="https://pic4.zhimg.com/v2-c5fc3e3d771b6e4bd2516372c69b340b_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-<p>网上很多教程都要求关闭“远程差分压缩”复选框，这是对“远程差分压缩”的误解。</p>
-<p>官方解释：远程差分压缩 (RDC) 功能是一组应用程序编程接口 (API)，这些应用程序可用于确定某个文件集是否发生了变化，如果是，就检测哪部分文件进行了更改。RDC 检测文件中数据的插入、删除和重新排列，使应用程序能够仅复制文件的已更改部分。这对于在有限带宽网络（如广域网 (WAN) 连接）上复制文件非常有用。</p>
-]]></content:encoded>
-      <enclosure url="https://pic1.zhimg.com/v2-af3e5c2a16a1f245ac6584097c53be60_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</title>
-      <link>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</link>
-      <guid>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</guid>
-      <source url="https://newzone.top/rss.xml">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</source>
-      <description>为什么要获得光猫超级密码？ 它可以用于端口映射（eMule high ID）和桥接模式（路由器掌控拨号，但不兼容固定电话）。网上关于光猫超级密码的获取攻略大多是在 2012-14 年发布的，现在已经不能使用了。 破解测试环境 运营商：上海电信 光猫型号：贝尔 E8-C-EPON 硬件版本：RG201O-CA_V1A2 软件版本：E201OCAA2V11S 光猫超级密码破解 地址栏输入 192.168.1.1，用户名：&amp;lt;光猫背面&amp;gt;，密码：&amp;lt;光猫背面&amp;gt;，登录管理界面。 在浏览器地址栏输入 192.168.1.1/backupsettings.txt，将 backupsettings.txt 文件导出并备份在电脑上。如果无法打开，请改为输入 192.168.1.1/backupsettings.conf，并做好备份。 打开下载的 backupsettings.txt 或 backupsettings.conf 文件，搜索 TeleComAccount，两个 password 之间就是超级密码。超级账号是 telecomadmin。 输入地址 192.168.1.1，用刚获取的超级密码登录，然后可以进行端口映射和设备桥接。</description>
-      <category>网络</category>
-      <pubDate>Wed, 18 Oct 2017 18:28:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> 为什么要获得光猫超级密码？</h2>
-<p>它可以用于端口映射（eMule high ID）和桥接模式（路由器掌控拨号，但不兼容固定电话）。网上关于光猫超级密码的获取攻略大多是在 2012-14 年发布的，现在已经不能使用了。</p>
-<h2> 破解测试环境</h2>
-<p>运营商：上海电信
-光猫型号：贝尔 E8-C-EPON
-硬件版本：RG201O-CA_V1A2
-软件版本：E201OCAA2V11S</p>
-<h2> 光猫超级密码破解</h2>
-<ol>
-<li>
-<p>地址栏输入 <code>192.168.1.1</code>，用户名：&lt;光猫背面&gt;，密码：&lt;光猫背面&gt;，登录管理界面。</p>
-<figure><img src="https://pic1.zhimg.com/v2-9e43bc86b9095f3f6c2cfa4bd58dcd68_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>在浏览器地址栏输入 <code>192.168.1.1/backupsettings.txt</code>，将 <code>backupsettings.txt</code> 文件导出并备份在电脑上。如果无法打开，请改为输入 <code>192.168.1.1/backupsettings.conf</code>，并做好备份。</p>
-</li>
-<li>
-<p>打开下载的 <code>backupsettings.txt</code> 或 <code>backupsettings.conf</code> 文件，搜索 <code>TeleComAccount</code>，两个 password 之间就是超级密码。超级账号是 <code>telecomadmin</code>。</p>
-<figure><img src="https://pic3.zhimg.com/v2-ee441dd18cc8e5f6303fdaef82b6d476_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>输入地址 <code>192.168.1.1</code>，用刚获取的超级密码登录，然后可以进行端口映射和设备桥接。</p>
-<figure><img src="https://pic1.zhimg.com/v2-31d6bb6b90be541c186a360fe2dd323c_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-<p>如果新安装的光猫无法获取超级密码，可以使用运营商的官方应用进行映射。</p>
-]]></content:encoded>
-      <enclosure url="https://pic1.zhimg.com/v2-9e43bc86b9095f3f6c2cfa4bd58dcd68_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>光猫改造 篇二：光猫 + 路由器，实现端口映射</title>
-      <link>https://newzone.top/posts/2017-10-18-light_cat_port_forwarding.html</link>
-      <guid>https://newzone.top/posts/2017-10-18-light_cat_port_forwarding.html</guid>
-      <source url="https://newzone.top/rss.xml">光猫改造 篇二：光猫 + 路由器，实现端口映射</source>
-      <description>光猫默认没有管理权限，需要先获得光猫的超管密码，参考光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2）。 光猫端口映射步骤： 登陆光猫管理地址 192.168.1.1，应用 → 高级 NAT 设置 →DMZ 设置，启用 DMZ 主机绑定路由器地址（路由器 WAN 口 IP 地址 -192.168.1.X) 登陆路由器管理地址 192.168.X.X。这里已梅林 AC5300 为图例。 在路由器设置选项中找到“端口转发”，按要求设置端口。我这是 eMule TCP 和 UDP 转发，设置完成后，变成 High ID。</description>
-      <category>网络</category>
-      <pubDate>Wed, 18 Oct 2017 22:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>光猫默认没有管理权限，需要先获得光猫的超管密码，参考<a href="https://newzone.top/posts/2017-10-18-Light_cat_E8-C-EPON_admin.html" target="_blank" rel="noopener noreferrer">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2）</a>。</p>
-<p><strong>光猫端口映射步骤：</strong></p>
-<ol>
-<li>
-<p>登陆光猫管理地址 192.168.1.1，应用 → 高级 NAT 设置 →DMZ 设置，启用 DMZ 主机绑定路由器地址（路由器 WAN 口 IP 地址 -192.168.1.X)</p>
-<figure><img src="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>登陆路由器管理地址 192.168.X.X。这里已梅林 AC5300 为图例。</p>
-<figure><img src="https://pic4.zhimg.com/v2-32825a6d3d75f4bfe5668f1b0d6c6683_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>在路由器设置选项中找到“端口转发”，按要求设置端口。我这是 eMule TCP 和 UDP 转发，设置完成后，变成 High ID。</p>
-<figure><img src="https://pic2.zhimg.com/v2-8f3eb2c42fd5d1a98f1345c6a5855e99_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://pic2.zhimg.com/v2-b4f5179278da52409f4a04ce7d139f99_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-]]></content:encoded>
-      <enclosure url="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" type="image/jpeg"/>
-    </item>
+    <category>工具</category>
     <item>
       <title>小型网站管理员，快放弃 CDN！</title>
       <link>https://newzone.top/posts/2018-01-19-forget_the_cdn.html</link>
@@ -469,6 +371,233 @@ AI 会取代你的工作！</p>
 </ul>
 ]]></content:encoded>
       <enclosure url="https://tc.seoipo.com/20180504135244.png?imageMogr2/format/webp" type="image/"/>
+    </item>
+    <item>
+      <title>怎么用 Adobe Audition 快速剪切音频？</title>
+      <link>https://newzone.top/posts/2018-05-04-audition_cut_mp3.html</link>
+      <guid>https://newzone.top/posts/2018-05-04-audition_cut_mp3.html</guid>
+      <source url="https://newzone.top/rss.xml">怎么用 Adobe Audition 快速剪切音频？</source>
+      <description>很久没剪音频了，突然被朋友拜托，才发现 Audition 剪切音频有多非人性，操作跟 10 年前的软件相比，没任何进步。 简易剪切流程 在 Audition 中打开音频文件。 选定要删除的音频部分：左键按住在删除音频起点，然后拉动到删除音频重点，放开左键。 点击右键，选择删除。刚才选择的音频就被删除了。 在混音器中点击，用鼠标滚轮放大音频的可选间距，重复上面 3 步，继续剪切音频。 精修完后，点击「文件」&amp;gt;「另存为」，就可以保存我们的音频文件了。</description>
+      <category>工具</category>
+      <pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>很久没剪音频了，突然被朋友拜托，才发现 Audition 剪切音频有多非人性，操作跟 10 年前的软件相比，没任何进步。</p>
+<h2> 简易剪切流程</h2>
+<ol>
+<li>
+<p>在 Audition 中打开音频文件。</p>
+<figure><img src="https://tc.seoipo.com/20180504152233.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>选定要删除的音频部分：左键按住在<strong>删除音频起点</strong>，然后拉动到<strong>删除音频重点</strong>，放开左键。</p>
+<figure><img src="https://tc.seoipo.com/20180504151226.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>点击右键，选择<strong>删除</strong>。刚才选择的音频就被删除了。</p>
+<figure><img src="https://tc.seoipo.com/20180504151306.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>在混音器中点击，用<strong>鼠标滚轮</strong>放大音频的可选间距，重复上面 3 步，继续剪切音频。</p>
+<figure><img src="https://tc.seoipo.com/20180504151816.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>精修完后，点击「文件」&gt;「另存为」，就可以保存我们的音频文件了。</p>
+</li>
+</ol>
+<p>PS：原本是想用时间来截取音频，但找遍 Audition 菜单，也没发现能按时间来剪切的选项。最后还是靠鼠标完成的。。</p>
+]]></content:encoded>
+      <enclosure url="https://tc.seoipo.com/20180504152233.png?imageMogr2/format/webp" type="image/"/>
+    </item>
+    <item>
+      <title>抛弃迅雷，Aria2 新手入门</title>
+      <link>https://newzone.top/posts/2018-05-15-aria2_a_new_download_tool.html</link>
+      <guid>https://newzone.top/posts/2018-05-15-aria2_a_new_download_tool.html</guid>
+      <source url="https://newzone.top/rss.xml">抛弃迅雷，Aria2 新手入门</source>
+      <description>迅雷已经用了 10 年，一直将它视为最快也最方便的下载工具，也一直购买迅雷会员。 但是，迅雷已经堕落。 thunder:\\ 迅雷专属链接越来越少，下载基本是磁力链接和 BT 种子； 迅雷会员加速不再有效，大量资源速度为 0（会员虽然还有一年多，但已经没用了）； 迅雷关闭旧版功能，迫使大家升级迅雷 U 享版，但升级后，发现新版迅雷会强制接收所有下载。 有些小文件，我只想用浏览器直接下载，而一些不想下载的链接，也会被迅雷非常敏感地感应到，强制下载，真的特别流氓。</description>
+      <category>工具</category>
+      <pubDate>Tue, 15 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>迅雷已经用了 10 年，一直将它视为最快也最方便的下载工具，也一直购买迅雷会员。</p>
+<p>但是，<strong>迅雷已经堕落</strong>。</p>
+<ul>
+<li><code>thunder:\\</code> 迅雷专属链接越来越少，下载基本是磁力链接和 BT 种子；</li>
+<li>迅雷会员加速不再有效，大量资源速度为 0（会员虽然还有一年多，但已经没用了）；</li>
+<li>迅雷关闭旧版功能，迫使大家升级迅雷 U 享版，但升级后，发现新版迅雷会强制接收所有下载。
+<blockquote>
+<p>有些小文件，我只想用浏览器直接下载，而一些不想下载的链接，也会被迅雷非常敏感地感应到，强制下载，真的特别流氓。</p>
+</blockquote>
+</li>
+</ul>
+<h2> 为什么选择 Aria2？</h2>
+<p>Aria2 下载功能比较全面，支持 BT 和磁力链接，性能也相当不错，<strong>速度不比迅雷慢</strong>。</p>
+<p>虽然没有原生应用界面，配置也比较麻烦，但这些可以通过懒人包轻松解决。</p>
+<h2> 真·懒人包</h2>
+<p>Aria2 真·懒人包无需配置，下载即可使用，适合不想折腾的人。</p>
+<p>真·懒人包：<a href="https://www.seoipo.com/software/Aria2/" target="_blank" rel="noopener noreferrer">https://www.seoipo.com/software/Aria2/</a></p>
+<p>将懒人包解压到 <code>D:\Aria2</code>，点击 <code>AriaNg 启动器.exe</code> 即可开始下载。两个启动器任选其一，都集成了后端服务和前端 UI，无需启动其他程序。包内均为开源绿色软件，不涉及任何隐私和安装，AutoHotkey 插件容易被误报。</p>
+<p>2023.03.26 重构启动器，更新 Aria2 1.36.0，AriaNG 1.3.3，并增加 bt-tracker 至 134 个，以便 BT 和磁力链接提速。</p>
+<p>新增功能：任务开始、完成和出错时，会推送系统通知，可在 aria2.conf 的特别功能区块中设置通知的开启与关闭，此功能由 @我真的爱发明 提出。</p>
+<hr>
+<p>如果不想使用懒人包，想了解 Aria2 背后的设置，请往下看配置步骤。</p>
+<h2> Aria2 设置</h2>
+<ol>
+<li>
+<p>下载 <a href="https://aria2c.com/archiver/aria2.zip" target="_blank" rel="noopener noreferrer">Aria2 快速设置包</a>或<a href="https://wwz.lanzouf.com/iROZE0eai3xe" target="_blank" rel="noopener noreferrer">备用链接</a>，将其解压到存放文件夹，例如 <code>D:\Aria2</code>。</p>
+</li>
+<li>
+<p>官网下载 <a href="https://github.com/aria2/aria2/releases" target="_blank" rel="noopener noreferrer">Aria2 程序</a>（Windows 选择 <a href="https://github.com/aria2/aria2/releases/download/release-1.36.0/aria2-1.36.0-win-64bit-build1.zip" target="_blank" rel="noopener noreferrer">aria2-1.36.0-win-64bit-build1.zip</a>），然后解压到快速设置包的存放文件夹中，替代其中的 <code>aria2c.exe</code> 程序。</p>
+<figure><img src="https://tc.seoipo.com/20191210232831.png" alt="" tabindex="0" loading="lazy"><figcaption>GitHub 官方仓库下载 Aria2</figcaption></figure>
+</li>
+<li>
+<p>点击 <code>aria2.exe</code> 启动 aria2，系统托盘区会同步出现应用图标。</p>
+</li>
+<li>
+<p>参照<a href="https://wwz.lanzouf.com/iwv6f0eadq9i" target="_blank" rel="noopener noreferrer">懒人包配置</a>修改 <code>aria2.conf</code>，更多设置参考 <a href="https://aria2.github.io/manual/en/html/aria2c.html" target="_blank" rel="noopener noreferrer">aria2c 官方文档</a>。<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup></p><a class="footnote-anchor" id="footnote-ref1">
+<p>修改默认下载目录：</p>
+<div class="language-conf line-numbers-mode" data-ext="conf"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>修改服务器默认连接数：</p>
+<div class="language-conf line-numbers-mode" data-ext="conf"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>开启 BT 下列设置：</p>
+<div class="language-conf line-numbers-mode" data-ext="conf"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></a><p><a class="footnote-anchor" id="footnote-ref1">在文档最后一行添加 BT trackers，最新 trackers 列表从 </a><a href="https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt" target="_blank" rel="noopener noreferrer">ngosang/trackerslist</a> 中获取，tracker 中用 <code>,</code> 隔开。</p>
+<div class="language-conf line-numbers-mode" data-ext="conf"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>其他设置不常用，有时间的话，你可以慢慢调整。</p>
+</li>
+<li>
+<p>Aira2 没有原生应用界面，可以输入网址 <code>http://aria2c.com</code> 使用第三方下载界面。该页面会自动与本地的 aira2c 程序关联，实现下载管理，建议把其收藏到书签，以便日后使用。<sup class="footnote-ref"><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2"></a></sup></p><a class="footnote-anchor" id="footnote-ref2">
+</a></li><a class="footnote-anchor" id="footnote-ref2">
+</a></ol><a class="footnote-anchor" id="footnote-ref2">
+</a><p><a class="footnote-anchor" id="footnote-ref2">如果出现「Aria2 RPC 服务器错误」，请检查 JSON-RPC Path 是否为 <code>http://localhost:6800/jsonrpc</code>。注意，页面<strong>链接须为 http 而非 https</strong>。如果依然报错，则说明 aria2.conf 配置有误，建议下载 </a><a href="https://www.seoipo.com/software/Aria2/" target="_blank" rel="noopener noreferrer">真·懒人包</a>。</p>
+<h2> Aria2 进阶</h2>
+<h3> 更换 Aria2 界面</h3>
+<p><a href="https://github.com/mayswind/AriaNg" target="_blank" rel="noopener noreferrer">AriaNg</a> 的界面类似传统的下载软件，使用简单。</p>
+<figure><img src="https://tc.seoipo.com/20180516104758.png" alt="" tabindex="0" loading="lazy"><figcaption>AriaNg 界面</figcaption></figure>
+<p>使用方法：下载并解压 <a href="https://github.com/mayswind/AriaNg-DailyBuild/archive/master.zip" target="_blank" rel="noopener noreferrer">AriaNg</a>，运行目录下的 index.html，打开 Aria2 WebUI 界面，将页面链接收藏到书签以便后续使用 Aria2。</p>
+<p>如果 AriaNg 页面出现报错，则从页面左侧选择「AriaNg 设置」&gt;「RPC」，检查 RPC 地址，默认地址为 <code>localhost:6800</code>。</p>
+<h3> Aira2 下载预热</h3>
+<p>Aira2 下载预热是 BT 下载前的必备步骤，否则速度容易很慢。</p>
+<p>找一个热门影视的 BT 种子（注意是种子，不是磁力链接），然后下载并挂着做种。过几个小时后，退出 Aria2 或者等待 Aria2 会话自动保存，你会发现 dht.dat 从空文件变成有数据了，之后的 BT 下载速度就会快很多。</p>
+<blockquote>
+<p>很多 BT 客户端一样，Aria2 有个 dht.dat 文件 (开启 ipv6 还有个 dht6.dat)，这玩意用于存储一种叫做 DHT Routing Table 的东西，DHT 网络由无数节点组成，你接触到一个后能通过它接触到更多的节点，Aria2 我记得是有内置的节点，但是！如果你在 Aria2 第一次运行的时候直接下载磁力链接或者冷门种子，你很可能遇到连 MetaData 都无法获取的情况，这就是因为第一次只是初始化 dht.dat 文件，你本地不存在 DHT Routing Table 的缓存，所以你无法从 DHT 网络中获取足够的数据。<sup class="footnote-ref"><a href="#footnote3">[3]</a><a class="footnote-anchor" id="footnote-ref3"></a></sup></p><a class="footnote-anchor" id="footnote-ref3">
+</a></blockquote><a class="footnote-anchor" id="footnote-ref3">
+</a><h3><a class="footnote-anchor" id="footnote-ref3"></a> 接管浏览器下载</h3>
+<p>如果想用 Aria2 接管浏览器的下载管理，需安装插件/扩展。</p>
+<ul>
+<li>Chrome：安装<a href="https://chrome.google.com/webstore/detail/nimeojfecmndgolmlmjghjmbpdkhhogl" target="_blank" rel="noopener noreferrer">添加到 aria2</a> 扩展。下载包可以用<a href="https://wwi.lanzoui.com/i4Fmeetsdaj" target="_blank" rel="noopener noreferrer">国内搬运地址</a>，或是懒人包内置文件。
+如果浏览器无法直接安装 <code>.crx</code> 格式的扩展，可以将文件解压到新文件夹「xxx」，然后在浏览器的地址栏输入 <code>chrome://extensions/</code> 开启开发者模式，点击加载已解压的扩展程序，选中刚才解压的文件夹「xxx」。</li>
+<li>Firefox：安装 <a href="https://addons.mozilla.org/en-US/firefox/addon/aria2-integration/" target="_blank" rel="noopener noreferrer">Aria2 Download Manager Integration</a> 扩展，可参考下方的 Chrome 扩展设置进行配置。</li>
+</ul>
+<p>安装完「添加到 aria2」扩展后，右键扩展图标，点击「选项」&gt;「设置」，设置如下：</p>
+<ul>
+<li>最小监视：<code>10</code> M，低于该容量将由浏览器下载。如果 Aria2 要接手所有下载，可以将最小监视设为 <code>0.001</code>。</li>
+<li>JSON-RPC 链接：<code>http://localhost:6800/jsonrpc</code>。</li>
+</ul>
+<p>注意：「添加到 aria2」图标显示的 <code>en</code> 表示处于开启状态，<code>dis</code> 表示处于关闭状态，点击图标可以切换使用状态。</p>
+<h2> Aria2 启动器</h2>
+<p>每次启动 Aria2 下载时，都需要执行两个文件：打开 WebUI 链接和 aria2c，这有点麻烦。因此，我使用 AutoHotkey 做了一个启动器，它可以检测 aria2c 运行状态，并一键打开下载界面，以简化 Aria 的启动过程。</p>
+<p>下载 <a href="https://wwz.lanzouf.com/iqud50ebl06d" target="_blank" rel="noopener noreferrer">Aria2 启动器</a>，然后将其解压到 Aria2 运行目录，例如 <code>D:\Aria2</code>。Aria2 启动器提供了两种方式，只需选择其中一种即可。</p>
+<ul>
+<li><strong>AriaNg 启动器</strong>（推荐）：使用 AriaNg 本地版作为下载管理界面。在使用该启动器前，需将 <a href="https://github.com/mayswind/AriaNg-DailyBuild/archive/master.zip" target="_blank" rel="noopener noreferrer">AriaNg</a> 解压到 Aria2 目录下，并将文件夹名改为 AriaNg，然后打开文件 index.html，该文件位于 <code>Aria2\AriaNg\index.html</code>。</li>
+<li><strong>Aria2c 启动器</strong>：将 <code>https://aria2c.com</code> 作为默认下载界面。该设置较旧，需确保 JSON-RPC Path 为 <code>http://localhost:6800/jsonrpc</code>。</li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p><a href="https://zhuanlan.zhihu.com/p/30666881" target="_blank" rel="noopener noreferrer">Aria2 基础上手指南</a> <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote2" class="footnote-item"><p><a href="https://www.appinn.com/aria2-in-windows-setup/" target="_blank" rel="noopener noreferrer">aria2 懒人安装教程</a> <a href="#footnote-ref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="footnote3" class="footnote-item"><p><a href="http://www.senra.me/solutions-to-aria2-bt-metalink-download-slowly/" target="_blank" rel="noopener noreferrer">解决 Aria2 BT 下载速度慢没速度的问题</a> <a href="#footnote-ref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>真· Airtable 3 分钟菜鸟入门</title>
+      <link>https://newzone.top/posts/2018-05-24-airtable_noob.html</link>
+      <guid>https://newzone.top/posts/2018-05-24-airtable_noob.html</guid>
+      <source url="https://newzone.top/rss.xml">真· Airtable 3 分钟菜鸟入门</source>
+      <description>Airtable 是新型的表格制作工具，可以把文字、图片、链接、文档等各种资料聚合在一起，成为我们的私人定制资料库。 之前好几次看到介绍 Airtable 的文章，但每次的尝试都被繁多的模板给击败了。 这次换了个思路，抛弃既有的官方模板。从空白表格开始，小白也可以 3 分钟入门 Airtable。 建立空白 Airtable 注册并登录 Airtable。 点击「Add a base」, 然后选择「Start from scratch」, 从空白表格启动。 进入刚刚新建的表格，界面跟 Excel 蛮像的。 在第一栏单击右键，唤出 field 栏目选项，可以更改 filed 栏目类型和名称。 filed 栏目类型可以设为文本、链接、附件、单选多选等多种玩法，在使用中可以多试试。</description>
+      <category>工具</category>
+      <pubDate>Thu, 24 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Airtable 是新型的表格制作工具，可以把文字、图片、链接、文档等各种资料聚合在一起，成为我们的<strong>私人定制资料库</strong>。</p>
+<p>之前好几次看到介绍 Airtable 的文章，但每次的尝试都被繁多的模板给击败了。</p>
+<p>这次换了个思路，抛弃既有的官方模板。从空白表格开始，小白也可以 3 分钟入门 Airtable。</p>
+<h2> 建立空白 Airtable</h2>
+<ol>
+<li>
+<p>注册并登录 <a href="https://airtable.com/" target="_blank" rel="noopener noreferrer">Airtable</a>。</p>
+</li>
+<li>
+<p>点击「Add a base」, 然后选择「Start from scratch」, 从空白表格启动。
+<img src="https://tc.seoipo.com/20180524095238.png?imageMogr2/format/webp" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>进入刚刚新建的表格，界面跟 Excel 蛮像的。
+<img src="https://tc.seoipo.com/20180524095557.png?imageMogr2/format/webp" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>在第一栏单击右键，唤出 field 栏目选项，可以更改 filed 栏目类型和名称。
+<img src="https://tc.seoipo.com/20180524095935.png?imageMogr2/format/webp" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>filed 栏目类型可以设为文本、链接、附件、单选多选等多种玩法，在使用中可以多试试。
+<img src="https://tc.seoipo.com/20180524100437.png?imageMogr2/format/webp" alt="" loading="lazy"></p>
+</li>
+</ol>
+<p>更多玩法，参考<a href="https://support.airtable.com/hc/en-us/articles/203229705" target="_blank" rel="noopener noreferrer">官方说明文档</a>。</p>
+<h2> 应用 Airtable</h2>
+<p>既然 Airtable 是个资料库，我们需要先为这个资料库准备个主题。</p>
+<p><strong>想想自己有什么需求，怎么的资料库才可以帮助你？</strong></p>
+<p>我喜欢玩一些新奇软件。这些软件的入门学习大多会超过 3 小时。从产生学习冲动到实际学习，中间间隔一个月。等实际学习入门的时候，收集的信息早已忘光，不得不重新收集。</p>
+<p>因此，我需要一个能汇集「入门学习资源」的资料库。</p>
+<ol>
+<li>
+<p>按资源需求，列出应用名、资源说明、链接、进度。</p>
+<figure><img src="https://tc.seoipo.com/20180524102247.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>点击「Group」，按类别重组表格。</p>
+<figure><img src="https://tc.seoipo.com/20180524102641.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>选定后，表格会按类型分开显示，界面简洁许多。（Group 是我个人最爱的功能，太漂亮了）。</p>
+<figure><img src="https://tc.seoipo.com/20180524102740.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>当表格越来越多后，我们可以使用「Hide fields」和「Filter」来只显示需要的元素。</p>
+</li>
+</ol>
+<p><strong>Hide fields</strong> : 取消后，隐藏不需要的 fields 栏目。</p>
+<figure><img src="https://tc.seoipo.com/20180524104251.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><strong>Filter</strong> 和 <strong>Group</strong> 功能类似，都是通过特定条件，过滤出符合要求的 fields</p>
+<figure><img src="https://tc.seoipo.com/20180524105035.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>以上的内容虽然和 Excel 有些不同，但大都能通过 Excel 实现。<strong>Airtable 与众不同的是视图变形功能，同样的内容却能通过不同的图表形式传达出来。</strong></p>
+<h2> Airtable 变形记</h2>
+<p>Airtable 拥有 <strong>Grid、Form、Calendar、Gallery、Kanban</strong> 这 5 种视图。</p>
+<figure><img src="https://tc.seoipo.com/20180524110129.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>Grid view 是默认的格子视图，我们接下来一个个了解另外 4 种视图。</p>
+<h3> Form view 表单视图</h3>
+<p>Form view 表单视图是调查问卷（协同工作？）工具。其他人可以通过加密链接，为你添加表格数据。</p>
+<figure><img src="https://tc.seoipo.com/20180524112225.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>打开加密链接后，看到如下视图，填写后发送。</p>
+<figure><img src="https://tc.seoipo.com/20180524112534.png?imageMogr2/thumbnail/!60p" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>切换到 Grid view，刚才添加的数据已经添加如表格了。</p>
+<figure><img src="https://tc.seoipo.com/20180524112659.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> Calendar view 日期视图</h3>
+<p>Calendar view 日期视图是日程安排表，一定要包含<strong>日期 field</strong>。</p>
+<figure><img src="https://tc.seoipo.com/20180524111028.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>所有的项目都按设定日期排列了。这个表格的第一列名字大都相同，所以看不出区别。</p>
+<figure><img src="https://tc.seoipo.com/20180524111455.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>点击单个事件，会有具体说明。</p>
+<figure><img src="https://tc.seoipo.com/20180524111716.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> Gallery view 卡片视图</h3>
+<p>Gallery view 把每行数据变成一个卡片。</p>
+<figure><img src="https://tc.seoipo.com/20180524113003.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> Kanban view 看板视图</h3>
+<p>Kanban view 将数据重新排列为一个个看板。 (Kanban 这名字简洁明了，Airtable 开发团队里有国人？)</p>
+<p>如果表中没有「Single select」或「Collaborator」的 fields , Airtable 会提示新建 field 来命名看板，普通用户建议选第一个「<strong>Create a new single select field</strong>」。</p>
+<figure><img src="https://tc.seoipo.com/20180524113513.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>Kanban 的界面和操作类似于 Trello，手动拖动卡片就可以操作。</p>
+<figure><img src="https://tc.seoipo.com/20180524114139.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>参考资料：</p>
+<ul>
+<li><a href="http://www.playpcesor.com/2016/06/airtable.html" target="_blank" rel="noopener noreferrer">Airtable 最強大線上表格製作，免費資料庫重整任何事</a></li>
+<li><a href="https://sspai.com/post/36402" target="_blank" rel="noopener noreferrer">重新想像 Excel 该有的样子：Airtable 评测</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://tc.seoipo.com/20180524095238.png?imageMogr2/format/webp" type="image/"/>
     </item>
   </channel>
 </rss>
